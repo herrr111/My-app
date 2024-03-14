@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Your App - Page 2</title>
+</head>
+<body>
+  <div class="page-container">
+    <div class="navbar">
+      <button onclick="location.href='page1.html'">Page 1</button>
+      <button onclick="location.href='page2.html'">Page 2</button>
+      <button onclick="location.href='page3.html'">Page 3</button>
+    </div>
+  </div>
+    <div class="page2container"></div>
+    <button onclick="location.href='history.html'" class="historybutton"> history <img class="historybuttonimage" src="img/historybutton.png" ></button>
+    <style>
+        .page-container{
+            background-image: url(img/page2bg.jpg);
+        z-index: 0;
+        position: absolute;}
+    
+        .page2container {
+            margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: white;
+    width: 300px; 
+    height:540px;
+    z-index: 1;
+    position: absolute;
+            margin-top: -50px;
+            border-radius: 20px;}
+        .historybutton {
+            position: fixed;
+            z-index: 2;
+            background-color: white;
+            border: none ;
+            font-family: 'font' , sans-serif;
+            font-weight: 100;
+            font-size: 11px;
+            top: 40px;
+            left: 66%;}
+        .historybuttonimage{
+            position: fixed;
+            top: 33px;
+            height: 30px;
+            right: 40px;
+        }
+    
+    </style>
+</body>
+</html>

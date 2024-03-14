@@ -1,0 +1,406 @@
+@font-face {
+    font-family: 'font';
+    src: url('bely_display_w00_regular-webfont.woff2') format('woff2'),
+         url('bely_display_w00_regular-webfont.woff') format('woff');
+    font-weight: normal;
+       font-style: normal;}
+body {
+    margin: 0;
+    padding: 0;
+    width: 350px; 
+    height: 650px; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+}
+.splash-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; 
+    background-color: black; 
+}
+
+.page-container { 
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: white;
+    width: 350px; 
+    height:650px;
+}
+
+.navbar {
+    position: fixed;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 590px;
+    width: 330px;
+    height: 40px;
+    left: 0px;
+    bottom: 0px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top: 3px solid black;
+     
+}
+
+.navbar button {
+    position: relative;
+    margin: 0 10px;
+    margin-top: 10px;
+    background-color: transparent;
+    border: none ;
+    bottom: 5px;
+    
+}
+
+.toDolist{
+    color: black;
+    position: fixed;
+    left:25px;
+    top:90px;
+    font-size: 35px;
+    font-family: 'font' , sans-serif;
+    font-weight: 300;
+}
+.date-today-label {
+    position: fixed;
+    color: black;
+    top: 90px;
+    left: 26px;
+    font-size: 14px;
+    font-family: 'font' , sans-serif;
+    font-weight: 200;
+}
+.bow {
+    position: fixed;
+    width: 115px;
+    height: 115px;
+    top: 3px;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+.buttonspic1{
+    position: relative;
+    height: 35px;
+    width: 35px;
+    bottom: 15px;
+    left: -35px;
+    
+    
+}
+.@font-face {
+    font-family: 'font';
+    src: url('bely_display_w00_regular-webfont.woff2') format('woff2'),
+         url('bely_display_w00_regular-webfont.woff') format('woff');
+    font-weight: normal;
+       font-style: normal;}
+body {
+    margin: 0;
+    padding: 0;
+    width: 350px; 
+    height: 650px; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+}
+.splash-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; 
+    background-color: black; 
+}
+
+.page-container { 
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: white;
+    width: 350px; 
+    height:650px;
+}
+
+.navbar {
+    position: fixed;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 590px;
+    width: 330px;
+    height: 40px;
+    left: 0px;
+    bottom: 0px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top: 3px solid black;
+    z-index: 1;  
+}
+
+.navbar button {
+    position: relative;
+    margin: 0 10px;
+    margin-top: 10px;
+    background-color: transparent;
+    border: none ;
+    z-index: 2;
+}
+
+.toDolist{
+    color: black;
+    position: fixed;
+    left:25px;
+    top:90px;
+    font-size: 35px;
+    font-family: 'font' , sans-serif;
+    font-weight: 300;
+}
+.date-today-label {
+    position: fixed;
+    color: black;
+    top: 90px;
+    left: 26px;
+    font-size: 14px;
+    font-family: 'font' , sans-serif;
+    font-weight: 200;
+}
+.bow {
+    position: fixed;
+    width: 115px;
+    height: 115px;
+    top: 3px;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+.buttonspic1{
+    position: fixed;
+    height: 35px;
+    width: 35px;
+    bottom: 20px;
+    left: 80px;
+    z-index: 0;
+    
+}
+.@font-face {
+    font-family: 'font';
+    src: url('bely_display_w00_regular-webfont.woff2') format('woff2'),
+         url('bely_display_w00_regular-webfont.woff') format('woff');
+    font-weight: normal;
+       font-style: normal;}
+body {
+    margin: 0;
+    padding: 0;
+    width: 350px; 
+    height: 650px; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+}
+.splash-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; 
+    background-color: black; 
+}
+
+.page-container { 
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: white;
+    width: 350px; 
+    height:650px;
+}
+
+.navbar {
+    position: relative;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 590px;
+    width: 330px;
+    height: 40px;
+    left: 0px;
+    bottom: 0px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top: 3px solid black;
+     
+}
+
+.navbar button {
+    position: fixed;
+    margin: 0 10px;
+    margin-top: 50px;
+    background-color: transparent;
+    border: none ;
+    
+}
+
+.toDolist{
+    color: black;
+    position: fixed;
+    left:25px;
+    top:90px;
+    font-size: 35px;
+    font-family: 'font' , sans-serif;
+    font-weight: 300;
+}
+.date-today-label {
+    position: fixed;
+    color: black;
+    top: 90px;
+    left: 26px;
+    font-size: 14px;
+    font-family: 'font' , sans-serif;
+    font-weight: 200;
+}
+.bow {
+    position: fixed;
+    width: 115px;
+    height: 115px;
+    top: 3px;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+.buttonspic1{
+    position: fixed;
+    height: 35px;
+    width: 35px;
+    bottom: 20px;
+    left: 80px;
+    z-index: 0;
+    
+}
+.@font-face {
+    font-family: 'font';
+    src: url('bely_display_w00_regular-webfont.woff2') format('woff2'),
+         url('bely_display_w00_regular-webfont.woff') format('woff');
+    font-weight: normal;
+       font-style: normal;}
+body {
+    margin: 0;
+    padding: 0;
+    width: 350px; 
+    height: 650px; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+}
+.splash-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; 
+    background-color: black; 
+}
+
+.page-container { 
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: white;
+    width: 350px; 
+    height:650px;
+}
+
+.navbar {
+    position: fixed;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 590px;
+    width: 330px;
+    height: 40px;
+    left: 0px;
+    bottom: 0px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top: 3px solid black;
+    
+}
+
+.navbar button {
+    position: relative;
+    margin: 0 25px;
+    margin-top: 30px;
+    background-color: transparent;
+    border: none ;
+    left: -8px;
+    
+}
+
+.toDolist{
+    color: black;
+    position: fixed;
+    left:25px;
+    top:90px;
+    font-size: 35px;
+    font-family: 'font' , sans-serif;
+    font-weight: 300;
+}
+.date-today-label {
+    position: fixed;
+    color: black;
+    top: 90px;
+    left: 26px;
+    font-size: 14px;
+    font-family: 'font' , sans-serif;
+    font-weight: 200;
+}
+.bow {
+    position: fixed;
+    width: 115px;
+    height: 115px;
+    top: 3px;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+.buttonspic1{
+    position: fixed;
+    height: 35px;
+    width: 35px;
+    bottom: 21px;
+    left: 40px;
+    z-index: 0;}
+.buttonspic2{
+    position: fixed;
+    height: 35px;
+    width: 35px;
+    bottom: 21px;
+    left:150px;
+    z-index: 0;}
+.buttonspic3{
+    position: fixed;
+    height: 35px;
+    width: 35px;
+    bottom: 21px;
+    left: 260px;
+    z-index: 0;}
